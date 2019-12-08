@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="{{route('Home')}}">
         <img src="{{asset('assets/images/wasaqlogo.png')}}" width="30" height="30" class="d-inline-block align-top" alt="">
         Wasaq Newsletter
     </a>
