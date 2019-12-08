@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes();
+Auth::routes(['verify' => true]);
 Route::group( ['middleware' => 'auth' ], function() {
     Route::get('/', 'ModerationController@HomeRender')->name('Home');
 //create LOB
